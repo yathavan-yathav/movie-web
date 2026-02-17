@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://movie-backend-dt8n.onrender.com/api";
+
 
 export const getPopularMovies = async () => {
   const res = await axios.get(`${API}/movies/popular`);
